@@ -23,7 +23,7 @@ public class Updater {
     public static String checkupdateVersionName() {  // Retrieves The Latest VersionName From Online
         try {
 
-            URL url = new URL("https://raw.githubusercontent.com/rakinthegreat/GcamUpdater/main/LatestVersionName");
+            URL url = new URL("https://raw.githubusercontent.com/rakinthegreat/GcamUpdater/master/LatestVersionName");
             // Set this link to your github file that contains the version name
 
             // Read text returned from the link
@@ -99,7 +99,7 @@ public class Updater {
     public static String updateVersionLink() {
         try {
 
-            URL url = new URL("https://raw.githubusercontent.com/rakinthegreat/GcamUpdater/main/UpdateLink");
+            URL url = new URL("https://raw.githubusercontent.com/rakinthegreat/GcamUpdater/master/UpdateLink");
             // Set the link to the file containing update link from your Github Repo. You can include direct download link or webpages both.
 
 
