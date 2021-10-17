@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Add the Below Line to your camera_preferences.xml -->
+    <Preference android:title="Check For Updates" android:summary="Checks online if any updates for this app were released" android:key="check_for_updates_key" android:icon="@drawable/ic_baseline_download_for_offline_24"/>
+</PreferenceScreen>
